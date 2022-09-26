@@ -6,4 +6,4 @@ Simulation Environment: Matlab
 
 
 ![](architecture2.jpg)
-<img src="architecture2.jpg" width="200" height="400" />
+<img src="architecture2.jpg" width="400"/>
