@@ -10,21 +10,17 @@ Simulation Environment: MATLAB
 
 ## Step One
 
-### Visualization of Multi-Occupancy Behavior Model
+### Visualization of Multi-Occupancy Trajectories
 
 #### Input:
 ##### 1. floorplan.jpg: the floorplan of the target smart home;
 ##### 2. sensor_loc.txt: the proposed sensor layout in the target smart home, i.e., the (x, y) readings of each sensor;
-##### path.txt
-##### sensor_list_zero.txt
+##### 3. path.txt: the list of all bridge connections among sensor nodes;
+##### 4. trajectory_data.txt: multi-Occupancy trajectories
 
 -------
 
 #### Output:
-#### path.gif: the trajectories of multiple residents 
-
-01 generate sensor_loc.txt ((x,y) readings of each sensor, based on sensors and the coordinate axis setting).
-
-
+##### path.gif: visualization of trajectory_data.txt with the specified floorplan and sensor layout
 
 ## Step Two
