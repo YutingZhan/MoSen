@@ -12,9 +12,9 @@ The *detected trajectory* is synthesized under the real trajectory and the diffe
 
 <img src="architecture2.jpg" width="400"/>
 
-## Step One | Visualization of Multi-Occupancy Trajectories
+## Step One | Visualization of multi-Occupancy (real) trajectories
 
-Run "0_local_main_1.m"
+Run "0_local_main_1.m": apply the target smart home floorplan and proposed sensor layout, visualize the real trajectory in the multi-person scenarios.
 
 ---
 
@@ -31,9 +31,11 @@ Run "0_local_main_1.m"
 
 <img src="path.gif" width="400"/>
 
-## Step Two | Simulate the localization error and identification classification
+## Step Two | Simulate the localization error (detected trajectory) and labeling classification
 
-Run "0_local_main_2.m"
+Run "0_realtrajectory.m": to map the sensor id and corresponding sensor locations, then we would have (x, y) readings of the trajectories instead of the sensor id. 
+
+Run "0_local_main_2.m": to simulate the localization error, compare the detected trajectories and real trajectories, and do the labeling classification, record and calculate the labeling accuracy
 
 ---
 
