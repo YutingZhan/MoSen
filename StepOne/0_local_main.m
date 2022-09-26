@@ -15,7 +15,7 @@ close all
 wid = 17; %m
 hei = 8; %m
 
-floorplan = rgb2gray(imread('floorplan.jpg'));
+floorplan = rgb2gray(imread('01_floorplan.jpg'));
 
 figure;
 imshow(floorplan);
@@ -25,14 +25,14 @@ xlim([0,size(floorplan,2)]);
 ylim([0,size(floorplan,1)]);
 wid = size(floorplan,2) / wid;
 hei = size(floorplan,1) / hei;
-Sesor_loc = load('sensor_loc.txt');
+Sesor_loc = load('02_sensor_loc.txt');
 Sesor_loc(:,2) = Sesor_loc(:,2) .* wid;
 Sesor_loc(:,3) = Sesor_loc(:,3) .* hei;
 Sesor_loc(:,3) = size(floorplan,1) - Sesor_loc(:,3);
 
 scatter(Sesor_loc(:,2),Sesor_loc(:,3));
 
-Path = load('path.txt');
+Path = load('03_path.txt');
 
 for i=1:size(Path, 1)
     j = Path(i,2);
@@ -41,8 +41,8 @@ for i=1:size(Path, 1)
 end
 
 
-%% load real sensor
-C = load('sensor_list_zero.txt'); 
+%% load trajectory data
+C = load('04_trajectory_zero.txt'); 
 
 % add outdoor point
 Sesor_loc = [Sesor_loc; [size(Sesor_loc,1) + 1,5,20]];
