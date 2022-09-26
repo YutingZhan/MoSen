@@ -13,10 +13,10 @@ Simulation Environment: MATLAB
 ### Visualization of Multi-Occupancy Behavior Model
 
 #### Input:
-#### FloorPlan1.jpg
-#### sensor_loc.txt
-#### path.txt
-#### sensor_list_zero.txt
+##### 1. floorplan.jpg: the floorplan of the target smart home;
+##### 2. sensor_loc.txt: the proposed sensor layout in the target smart home, i.e., the (x, y) readings of each sensor;
+##### path.txt
+##### sensor_list_zero.txt
 
 -------
 
