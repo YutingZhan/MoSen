@@ -8,11 +8,9 @@ Simulation Environment: MATLAB
 
 <img src="architecture2.jpg" width="400"/>
 
-## Step One
+## Step One | Visualization of Multi-Occupancy Trajectories
 
-### Visualization of Multi-Occupancy Trajectories
-
-Run "local_main.m"
+Run "0_local_main.m"
 
 ---
 
