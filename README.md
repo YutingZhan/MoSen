@@ -1,7 +1,5 @@
 # MoSen
 
-Here is the code for the implementation of MoSen system.
-
 Simulation Environment: MATLAB
 
 
