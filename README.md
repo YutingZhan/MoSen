@@ -35,6 +35,18 @@ Run "0_local_main_1.m": apply the target smart home floorplan and proposed senso
 
 Run "0_realtrajectory.m": to map the sensor id and corresponding sensor locations, then we would have (x, y) readings of the trajectories instead of the sensor id. 
 
+---
+
+#### Input:
+##### 1. 01_sensor_list.txt: the proposed sensor layout in the target smart home, i.e., the (x, y) readings of each sensor;
+##### 2. 02_sensor_loc.txt: 
+
+-------
+
+#### Output: location_list.txt
+
+
+
 Run "0_local_main_2.m": to simulate the localization error, compare the detected trajectories and real trajectories, and do the labeling classification, record and calculate the labeling accuracy
 
 ---
