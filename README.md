@@ -5,4 +5,4 @@ Simulation Environment: Matlab
 
 
 
-![](architecture2.jpg)
+![](architecture2.jpg | width=100 )
