@@ -4,7 +4,7 @@ close all
 
 %% %%%%%%%%%%%%%%%
 % -----input------
-% FloorPlan1.jpg
+% floorplan.jpg
 % sensor_loc.txt
 % path.txt
 % sensor_list_zero.txt
@@ -15,7 +15,7 @@ close all
 wid = 17; %m
 hei = 8; %m
 
-floorplan = rgb2gray(imread('FloorPlan1.jpg'));
+floorplan = rgb2gray(imread('floorplan.jpg'));
 
 figure;
 imshow(floorplan);
