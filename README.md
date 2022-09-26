@@ -23,4 +23,6 @@ Simulation Environment: MATLAB
 #### Output:
 ##### path.gif: visualization of trajectory_data.txt with the specified floorplan and sensor layout
 
+<img src="path.gif" width="400"/>
+
 ## Step Two
