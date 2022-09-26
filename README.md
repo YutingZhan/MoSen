@@ -12,6 +12,10 @@ Simulation Environment: MATLAB
 
 ### Visualization of Multi-Occupancy Trajectories
 
+Run "local_main.m"
+
+---
+
 #### Input:
 ##### 1. floorplan.jpg: the floorplan of the target smart home;
 ##### 2. sensor_loc.txt: the proposed sensor layout in the target smart home, i.e., the (x, y) readings of each sensor;
