@@ -3,7 +3,7 @@
 
 ### Visualization of Multi-Occupancy Trajectories
 
-Run "local_main.m"
+Run "0_local_main.m"
 
 ---
 
