@@ -22,7 +22,7 @@ Run "0_local_main_1.m"
 ##### 1. 01_floorplan.jpg: the floorplan of the target smart home;
 ##### 2. 02_sensor_loc.txt: the proposed sensor layout in the target smart home, i.e., the (x, y) readings of each sensor;
 ##### 3. 03_path.txt: the list of all bridge connections among sensor nodes;
-##### 4. 04_trajectory_data.txt: multi-resident trajectories
+##### 4. 04_trajectory_data.txt: multi-Occupancy trajectories; column 1 - 4 represents the triggered sensors by residents 1 - 4; '0' represents in the current key timestamp, the resident keep same location as the last key timestamp.
 
 -------
 
