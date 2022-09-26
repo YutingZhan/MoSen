@@ -2,7 +2,8 @@
 
 Simulation Environment: MATLAB
 
-
+Based on the sensor activation versus time, we assume \textit{the real trajectory} is defined by the optimal paths between adjacent sensor activities. 
+The \textit{detected trajectory} is synthesized under the real trajectory and the different localization resolutions. 
 
 <img src="architecture2.jpg" width="400"/>
 
