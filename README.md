@@ -31,7 +31,7 @@ Run "0_local_main_1.m"
 
 <img src="path.gif" width="400"/>
 
-## Step Two
+## Step Two | Simulate the localization error and identification classification
 
 Run "0_local_main_2.m"
 
