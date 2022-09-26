@@ -1,6 +1,8 @@
 # MoSen
 
-Here is the code for the implementation of MoSen network.
+Here is the code for the implementation of MoSen system.
+Simulation Environment: Matlab
+
 
 
 ![](architecture2.jpg)
