@@ -1,6 +1,12 @@
 # MoSen
 
-Simulation Environment: MATLAB
+Smart home solutions increasingly rely on various sensors for behavioral analytics and activity recognition to provide context-aware applications and personalized care. Optimizing the sensor network is one of the most critical approaches to ensuring classification accuracy and system efficiency. However, the trade-off between the cost and performance is often a challenge in real deployments, particularly for multiple-occupancy smart homes or care homes. In this work, using actual indoor activity and mobility traces, floor plans, and synthetic multi-occupancy behavior models, we evaluate several multi-occupancy household scenarios with 2-5 residents. We explore and quantify the trade-offs between the cost of sensor deployments and expected labeling accuracy in different scenarios. The evaluation across different scenarios shows that the performance of the desired context-aware task is affected by different localization resolutions, the number of residents, the number of sensors, and varying sensor deployments.
+
+---
+
+##### Simulation Environment: MATLAB
+
+---
 
 ##### Real Trajectory: 
 
@@ -11,6 +17,8 @@ Based on the sensor activation versus time, we assume *the real trajectory* is d
 The *detected trajectory* is synthesized under the real trajectory and the different localization resolutions. 
 
 <img src="architecture2.jpg" width="400"/>
+
+---
 
 ## Step One | Visualization of multi-Occupancy (real) trajectories
 
@@ -31,6 +39,8 @@ Run "one_main.m": apply the target smart home floorplan and proposed sensor layo
 
 <img src="path.gif" width="600"/>
 
+---
+
 ## Step Two | Simulate the localization error (detected trajectory) and labeling classification
 
 a_location_list.txt: by mapping the sensor id and corresponding sensor locations, then we would have (x, y) readings of the trajectories instead of the sensor id. 
@@ -49,6 +59,8 @@ Run "two_main.m": to simulate the localization error, compare the detected traje
 
 #### Output:
 ##### the labeling accuracy
+
+---
 
 ## Step Three | Visualization of the (detected) trajectories & Final analysis and design insights
 
