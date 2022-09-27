@@ -29,7 +29,7 @@ Run "one_main.m": apply the target smart home floorplan and proposed sensor layo
 #### Output:
 ##### path.gif: visualization of trajectory_data.txt with the specified floorplan and sensor layout
 
-<img src="path.gif" width="400"/>
+<img src="path.gif" width="600"/>
 
 ## Step Two | Simulate the localization error (detected trajectory) and labeling classification
 
@@ -52,6 +52,6 @@ Run "two_main.m": to simulate the localization error, compare the detected traje
 
 ## Step Three | Visualization of the (detected) trajectories & Final analysis and design insights
 
-<img src="trajectory2.gif" width="400"/>
+<img src="trajectory2.gif" width="600"/>
 
 For the analysis details, please refer to the results section in the paper.
