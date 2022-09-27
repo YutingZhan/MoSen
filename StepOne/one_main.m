@@ -4,18 +4,18 @@ close all
 
 %% %%%%%%%%%%%%%%%
 % -----input------
-% floorplan.jpg
-% sensor_loc.txt
-% path.txt
-% sensor_list_zero.txt
+% a_floorplan.jpg
+% b_sensor_loc.txt
+% c_path.txt
+% d_sensor_list_zero.txt
 % -----output------
-% The moving paths of distinct users
+% path.gif: the moving paths of distinct users
 
 %% map allocation
 wid = 17; %m
 hei = 8; %m
 
-floorplan = rgb2gray(imread('01_floorplan.jpg'));
+floorplan = rgb2gray(imread('a_floorplan.jpg'));
 
 figure;
 imshow(floorplan);
@@ -25,14 +25,14 @@ xlim([0,size(floorplan,2)]);
 ylim([0,size(floorplan,1)]);
 wid = size(floorplan,2) / wid;
 hei = size(floorplan,1) / hei;
-Sesor_loc = load('02_sensor_loc.txt');
+Sesor_loc = load('b_sensor_loc.txt');
 Sesor_loc(:,2) = Sesor_loc(:,2) .* wid;
 Sesor_loc(:,3) = Sesor_loc(:,3) .* hei;
 Sesor_loc(:,3) = size(floorplan,1) - Sesor_loc(:,3);
 
 scatter(Sesor_loc(:,2),Sesor_loc(:,3));
 
-Path = load('03_path.txt');
+Path = load('c_path.txt');
 
 for i=1:size(Path, 1)
     j = Path(i,2);
@@ -42,7 +42,7 @@ end
 
 
 %% load trajectory data
-C = load('04_trajectory_zero.txt'); 
+C = load('d_trajectory_zero.txt'); 
 
 % add outdoor point
 Sesor_loc = [Sesor_loc; [size(Sesor_loc,1) + 1,5,20]];
