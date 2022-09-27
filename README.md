@@ -48,4 +48,10 @@ Run "0_local_main_2.m": to simulate the localization error, compare the detected
 -------
 
 #### Output:
-##### path.gif: the labeling accuracy
+##### the labeling accuracy
+
+## Step Three | Visualization of the (detected) trajectories & Final analysis and design insights
+
+<img src="trajectory2.gif" width="400"/>
+
+For the analysis details, please refer to the results section in the paper.
