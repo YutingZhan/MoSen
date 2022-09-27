@@ -52,6 +52,6 @@ Run "two_main.m": to simulate the localization error, compare the detected traje
 
 ## Step Three | Visualization of the (detected) trajectories & Final analysis and design insights
 
-<img src="trajectory.gif" width="400"/>
+<img src="trajectory2.gif" width="400"/>
 
 For the analysis details, please refer to the results section in the paper.
