@@ -2,7 +2,7 @@
 
 Smart home solutions increasingly rely on various sensors for behavioral analytics and activity recognition to provide context-aware applications and personalized care. Optimizing the sensor network is one of the most critical approaches to ensuring classification accuracy and system efficiency. However, the trade-off between the cost and performance is often a challenge in real deployments, particularly for multiple-occupancy smart homes or care homes. In this work, using actual indoor activity and mobility traces, floor plans, and synthetic multi-occupancy behavior models, we evaluate several multi-occupancy household scenarios with 2-5 residents. We explore and quantify the trade-offs between the cost of sensor deployments and expected labeling accuracy in different scenarios. The evaluation across different scenarios shows that the performance of the desired context-aware task is affected by different localization resolutions, the number of residents, the number of sensors, and varying sensor deployments.
 
----
+***
 
 ##### Simulation Environment: MATLAB
 
