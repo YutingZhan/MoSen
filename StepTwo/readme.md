@@ -1,9 +1,9 @@
 ## Step Two | Simulate the localization error (detected trajectory) and labeling classification
 
-a_location_list.txt: map the sensor id and corresponding sensor locations, then we would have (x, y) readings of the trajectories instead of the sensor id. 
+a_location_list.txt: by mapping the sensor id and corresponding sensor locations, then we would have (x, y) readings of the trajectories instead of the sensor id. 
 
 ---
-Run "0_local_main_2.m": to simulate the localization error, compare the detected trajectories and real trajectories, and do the labeling classification, record and calculate the labeling accuracy
+Run "two_main.m": to simulate the localization error, compare the detected trajectories and real trajectories, and do the labeling classification, record and calculate the labeling accuracy
 
 ---
 
